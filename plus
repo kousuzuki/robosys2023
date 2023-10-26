@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Ko Suzuki 　　　　　
+# SPDX-License-Identifier: BSD-3-Clause
+import sys
+
+ans = 0.0
+for line in sys.stdin:
+    try:
+        ans += int(line)
+    except:
+        ans += float(line)
+
+print(ans)
+
+
+
+
+
+
+
+
+*このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布及び使用が許可されます。

@@ -9,9 +9,9 @@ ng () {
 
 res=0
 
-out=$(seq 5 | ./plus)
-
-[ "${out}" = 15 ] || ng ${LINENO}
+out=$(seq 5| ./plus)
+Expected_out=15.0 5 3.0
+ "${out}" = "${Expected_out}" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 exit $[res]

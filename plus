@@ -2,15 +2,23 @@
 # SPDX-FileCopyrightText: 2023 Ko Suzuki 　　　　　
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
+total_sum = 0.0
+count = 0
 
-ans = 0
 for line in sys.stdin:
     try:
-        ans += int(line)
-    except:
-        ans += float(line)
+        value = float(line)
+        total_sum += value
+        count += 1
+    except ValueError:
+        print(f"Invalid input: {line}")
+if count > 0:
+    average = total_sum / count
+    print(total_sum,count,average)
+else:
+    print("No valid numbers were provided.")
 
-print(ans)
+
 
 
 

@@ -16,11 +16,9 @@ cd robosys2023
 chmod +x plus
 
 seq 5 | ./plus 
-```
 
 以下が出力した結果です
 
-```bash
 $ seq 5 | ./plus
 
 15.0 5 3.0

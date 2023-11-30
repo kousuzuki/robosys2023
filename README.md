@@ -4,7 +4,7 @@
 
 
 ## インストール方法
-*　お使いの環境で以下を入力してください。
+* お使いの環境で以下を入力してください。
 ```bash
 git clone git@github.com:kousuzuki/robosys2023.git
 ```

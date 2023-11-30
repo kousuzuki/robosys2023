@@ -3,12 +3,10 @@
 標準入力から読み込んだ数字を足し。入力した数値の数、平均を表示。
 
 
-
-
 ## インストール方法
 *　お使いの環境で以下を入力してください。
 ```bash
-git@github.com:kousuzuki/robosys2023.git
+git clone git@github.com:kousuzuki/robosys2023.git
 ```
 
 ## 使用方法について

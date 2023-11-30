@@ -17,7 +17,7 @@ chmod +x plus
 
 seq 5 | ./plus 
 
-以下が出力した結果です
+#以下が出力した結果です
 
 $ seq 5 | ./plus
 
